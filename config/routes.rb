@@ -4,5 +4,5 @@ Rails.application.routes.draw do
   root to: 'pages#index'
 
   # this is an example page to show restricting certain pages
-  get '/secret', to: 'pages#secret', as: :secret
+  get '/software', to: 'pages#software', as: :software
 end
